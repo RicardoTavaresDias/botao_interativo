@@ -1,0 +1,100 @@
+
+/*Definido a div geral no ROOT e tamanho da div do segundo modelo modo aberto para caber o botão*/
+div{
+    background-color:#0a7a9e ;
+    width:150px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 15px;
+    gap:10px;
+    /*Para o botão ficar dentro da div e não externo*/
+    position: relative; 
+    
+    /*Definido a transição da divs no momento da volta*/
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    }
+    
+    /*Definido o tamanho da div do primeiro modelo (HOVER) aberto*/
+    .modelo1{
+      width: 120px;
+    }
+    
+    
+    /*Definido o tamanho, margem e fixando a imagem SVG no lado esquerdo*/
+    svg {
+    width: 30px;
+    margin-left: 2px;
+    position: fixed;
+    }
+    
+    /*Definido as propriedades do paragrafo P*/
+    div p{
+    margin:0px;
+    display: flex;
+    margin-left: 47px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    
+    /*Definição da transição do texto no volta da DIV*/
+    transition-duration: 1s;
+    /*propriedade para sumir o texto ao encolher a DIV do segundo modelo*/
+    overflow: hidden; 
+    }
+    
+    /*Definido o tamanho da DIV do primeiro modelo modo fechado*/
+    .modelo1:hover{
+      width:35px;
+    }
+    
+    
+    
+    
+    
+    /*============= DIV DO SEGUNDO MODELO =====================*/
+    
+    
+    
+    
+    
+    
+    /*Definido o tamanho da DIV do segundo modelo modo fechado*/
+    .div-fechado{
+      width:60px;
+    }
+    
+    /*Definido o posição do botão como absoluto para ficar em cima da DIV e transição*/
+    .bt-fechado{
+      /*definido posição absoluto para o botão ficar por cima da segunda DIV e posição ideal ao fechar*/
+      position: absolute;
+      left: 62%;
+      top: 29%;
+    
+    /*Definido a rotação do simboloa para direita e esquedo quando abre e fecha*/
+      transform: rotate(180deg);
+    }
+    
+    /*Realizado definição das propriedade do botão cor, tamanho e outros no formato*/
+    button {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: none;
+      background-color: #20dbd9;
+      cursor: pointer;
+    /*definido posição absoluto para o botão ficar por cima da segunda DIV e posição ideal ao aberto*/
+      position: absolute;
+      left: 80%;
+      top: 29%;
+    /*Definido a rotação do simboloa para direita e esquedo quando abre e fecha*/
+      transform: rotate(0deg);
+      /*Realizar uma transição do movimento do botão quando fecha e abre*/
+      transition: all 1s ease-in-out;
+    }
+    
+    
+    
+    
