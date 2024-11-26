@@ -17,7 +17,7 @@ div{
     
     /*Definido a transição da divs no momento da volta*/
     transition: all 1s ease-in-out;
-    
+    overflow: hidden;
     }
     
     /*Definido o tamanho da div do primeiro modelo (HOVER) aberto*/
@@ -46,8 +46,7 @@ div{
     /*Definição da transição do texto no volta da DIV*/
     transition-duration: 1s;
     /*propriedade para sumir o texto ao encolher a DIV do segundo modelo*/
-    opacity: 0;
-    visibility: hidden;
+    overflow: hidden; 
     }
     
     /*Definido o tamanho da DIV do primeiro modelo modo fechado*/
