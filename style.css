@@ -68,6 +68,10 @@ div{
     /*Definido o tamanho da DIV do segundo modelo modo fechado*/
     .div-fechado{
       width:60px;
+    }
+
+    /*Removendo o texto no momento do botão fechado da DIV do segundo modelo*/
+    .div-fechado p{
       opacity: 0;
       visibility: hidden;
     }
