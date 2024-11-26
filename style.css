@@ -1,4 +1,8 @@
 
+*a{
+  text-decoration: none;
+}
+
 /*Definido a div geral no ROOT e tamanho da div do segundo modelo modo aberto para caber o botão*/
 div{
     background-color:#0a7a9e ;
@@ -13,7 +17,8 @@ div{
     
     /*Definido a transição da divs no momento da volta*/
     transition: all 1s ease-in-out;
-    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
     }
     
     /*Definido o tamanho da div do primeiro modelo (HOVER) aberto*/
@@ -42,7 +47,8 @@ div{
     /*Definição da transição do texto no volta da DIV*/
     transition-duration: 1s;
     /*propriedade para sumir o texto ao encolher a DIV do segundo modelo*/
-    overflow: hidden; 
+    opacity: 0;
+    visibility: hidden;
     }
     
     /*Definido o tamanho da DIV do primeiro modelo modo fechado*/
