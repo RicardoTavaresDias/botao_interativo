@@ -72,9 +72,8 @@ div{
 
     /*Removendo o texto no momento do botão fechado da DIV do segundo modelo*/
     .div-fechado p{
-      opacity: 0;
       visibility: hidden;
-      transition-duration: 1s;
+      transition-duration: 0.7s;
     }
     
     /*Definido o posição do botão como absoluto para ficar em cima da DIV e transição*/
