@@ -68,6 +68,8 @@ div{
     /*Definido o tamanho da DIV do segundo modelo modo fechado*/
     .div-fechado{
       width:60px;
+      opacity: 0;
+      visibility: hidden;
     }
     
     /*Definido o posição do botão como absoluto para ficar em cima da DIV e transição*/
