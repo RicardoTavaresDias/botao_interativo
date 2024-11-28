@@ -1,4 +1,9 @@
+:root{
+  justify-items: center;
+}
+
 body{
+  border-radius: 48px;
   width: 450px;
   justify-items: center;
   border: 2px solid #C0C0C0;
