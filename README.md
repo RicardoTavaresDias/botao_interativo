@@ -1,7 +1,7 @@
 <h1 align="center"> Botão Interativo </h1>
 
 <p align="center">
-Esse botão interativo doi realizado por mim, em HTML e CSS com transição ao passar o mouse ou também com botão click que realiza abertura e fechamento com texto GitHUb sumido e ficando somente a imagem da GitHub.
+Esse botão interativo foi realizado por mim, em HTML, CSS e JAVASCRIPT com transição ao passar o mouse ou também com botão click, que realiza abertura e fechamento com texto GitHUb, sumido e ficando somente a imagem da GitHub.
 </p>
 
 <p align="center">
@@ -28,12 +28,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Voce pode visualizar o projeto pronto projeto através [DESSE LINK](https://ricardotavaresdias.github.io/botao_interativo/)
-O Projeto Botão Interativo é um agregador conhecimento Pessoal para avançar o conhecimento em HTML e CSS e JavaScript
+Voce pode visualizar o projeto pronto através [DESSE LINK](https://ricardotavaresdias.github.io/botao_interativo/)
+O Projeto Botão Interativo é um agregador desafio Pessoal para avançar o conhecimento em HTML, CSS e JavaScript
 
 ## 🔖 Layout
 
-O layout é simples e focado nos botãoes com obejetivo para conhecimento no html e css e javascript
+O layout é simples e focado nos botãoes, com objetivo para conhecimento em html, css e javascript.
 
 
 ---
