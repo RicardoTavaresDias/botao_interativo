@@ -35,7 +35,7 @@ div{
     position: relative; 
     
     /*Definido a transição da divs no momento da volta*/
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
     overflow: hidden;
     }
     
@@ -63,7 +63,7 @@ div{
     color: black;
     
     /*Definição da transição do texto no volta da DIV*/
-    transition-duration: 1s;
+    /* transition-duration: 1s; */
     /*propriedade para sumir o texto ao encolher a DIV do segundo modelo*/
     overflow: hidden; 
     }
@@ -121,7 +121,7 @@ div{
     /*Definido a rotação do simboloa para direita e esquedo quando abre e fecha*/
       transform: rotate(0deg);
       /*Realizar uma transição do movimento do botão quando fecha e abre*/
-      transition: all 1s ease-in-out;
+      transition: all 0.8s ease-in-out;
     }
     
     
