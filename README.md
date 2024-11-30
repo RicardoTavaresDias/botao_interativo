@@ -14,7 +14,7 @@ Esse botão interativo foi realizado por mim, em HTML, CSS e JAVASCRIPT com tran
 <br>
 
 <p align="center">
-  <img alt="Pagina de Receita" src="./github/preview.png" width="100%">
+  <img alt="Pagina de Receita" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
